@@ -9,9 +9,27 @@ export default function App() {
       author: "Napoleon Hill",
       poster: "https://images-eu.ssl-images-amazon.com/images/I/51Yngd0TjFS._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
       rating: 60608,
-      booktype: "Hardcover  1 December 2019",
+      booktype: "Hardcover || 1 December 2019",
       price: 299,
-      delivery: "Monday, Jan 17 on orders over ₹499 shipped by Amazon Details "
+      delivery: "Monday, Jan 17 on orders over ₹499 shipped by Amazon "
+    },
+    {
+      name: "Worlds Best Inspirational Books to Change Your Life (Box Set of 3 Books)",
+      author: "Joseph Murphy Dale Carnegie, Napoleon Hill ",
+      poster: "https://images-na.ssl-images-amazon.com/images/I/51PU8Sa4tQL._SX451_BO1,204,203,200_.jpg",
+      rating: 447,
+      booktype: "Paperback || 1 November 2020",
+      price: 249,
+      delivery: "Monday, Jan 17 on orders over ₹499 shipped by Amazon"
+    },
+    {
+      name: "108 Panchatantra Stories (Illustrated) for children",
+      author: "Maple Press",
+      poster: "https://images-eu.ssl-images-amazon.com/images/I/5168pz2MP7L._SX198_BO1,204,203,200_QL40_FMwebp_.jpg",
+      rating: 867,
+      booktype: "Paperback || 1 September 2020",
+      price: 98,
+      delivery: "Monday, Jan 17 on orders over ₹499 shipped by Amazon"
     },
 
   ];
@@ -42,7 +60,7 @@ function Book({ name,
       <img src={poster} alt={name} className="book-poster" />
       <div className="book-specs">
         <h3 className="book-name">{name}</h3>
-        <p className="book-rating" >⭐{rating} ratings</p>
+        <p className="book-rating" >⭐⭐⭐⭐⭐{rating}  ratings</p>
         <p className="book-author"> By {author}</p>
         <p className="book-booktype">{booktype}</p>
         <p className="book-price">Price: Rs-{price}</p>

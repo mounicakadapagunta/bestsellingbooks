@@ -2,9 +2,10 @@
   background-color: transparent;
 }
 .book-container{
-  width: 80%;
+  width: 60%;
   display:flex;
   flex-direction: row;
+  
 }
 
 .book-poster{
@@ -13,12 +14,19 @@
   object-fit: cover;
 }
 .book-specs{
+  
   padding:35px;
+  padding-top:70px;
+  background-color: rgb(189, 186, 186);
+}
+.book-author{
+  font-size:18px;
+  color:blue
 }
 
 
 .book-rating{
-  font-size: 18px;
+  font-size: 20px;
 }
  .book-name{
    font-size: 24px;
@@ -26,18 +34,13 @@
    max-width: 70%;
  }
 
- .book-summary{
-   margin-top: 0px;
-
- }
-
  .body{
    margin: 20px;
-   font-family: "Poppins",sans-serif;
+  
  }
 .book-list{
   display: flex;
-  gap:24px;
+  gap:30px;
   flex-wrap: wrap;
   justify-content: space-around;
 }
